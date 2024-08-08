@@ -1,4 +1,5 @@
 import "./App.css";
+import Resume from "./assets/components/Resume";
 
 // Accessibility features:
 //   - Sections of the page should be marked up as semantic HTML elements
@@ -33,6 +34,7 @@ function App() {
       </header>
       <main>
         <p>Design inspired by raylib</p>
+        <Resume />
       </main>
     </>
   );

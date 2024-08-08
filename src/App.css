@@ -3,6 +3,22 @@
   src: url('assets/fonts/PressStart2P-Regular.ttf') format(truetype);
 }
 
-* {
+header {
   font-family: 'PressStart2P', 'Courier New', Courier, monospace;
+  background-color: white;
+  border: 10px solid black;
+  padding: 10px;
+  width: 110%;
+  margin-left: -5%;
+  margin-top: -5%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+main {
+  font-family: 'PressStart2P', 'Courier New', Courier, monospace;
+  background-color: darkblue;
 }
