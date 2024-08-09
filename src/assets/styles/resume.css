@@ -1,8 +1,138 @@
-#resume-body {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#resume {
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 10px solid black;
-  background-color: white;
+  background-color: darkgray;
   padding: 10px;
+}
+
+#myName {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#resume section {
+  border: 10px solid black;
+  background-color : white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.section-label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid black;
+}
+
+.profile-keyword {
+  font-weight: bold;
+}
+
+.profile-keyword:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  animation-duration: 0.5s;
+  animation-name: hover-color;
+  text-decoration: underline;
+  background-color:black;
+}
+
+@keyframes hover-color {
+  from {
+    text-decoration: none;
+    background-color: white;
+  }
+  to {
+    text-decoration: underline;
+    background-color:black;
+  }
+}
+
+.skill-list {
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill i {
+  font-size: 20px;
+}
+
+.skill-name:hover {
+  animation: skill-hover-color 0.1s ease-in;
+  color: white;
+  background-color:black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes skill-hover-color {
+  from {
+    color: black;
+    background-color: white;
+  }
+  to {
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+  }
+}
+
+.education-description {
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  height: 85px;
+  flex-wrap: wrap;
+}
+
+.education-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  height: 85px;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.education-description li {
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+#education-image {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+  padding: 5px;
+  height: 100%;
 }
