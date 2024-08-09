@@ -33,7 +33,6 @@ function App() {
         <h1>Hello, World!</h1>
       </header>
       <main>
-        <p>Design inspired by raylib</p>
         <Resume />
       </main>
     </>
