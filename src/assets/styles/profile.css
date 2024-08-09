@@ -1,0 +1,23 @@
+.profile-keyword {
+  font-weight: bold;
+}
+
+.profile-keyword:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  animation-duration: 0.5s;
+  animation-name: hover-color;
+  text-decoration: underline;
+  background-color: black;
+}
+
+@keyframes hover-color {
+  from {
+    text-decoration: none;
+    background-color: white;
+  }
+  to {
+    text-decoration: underline;
+    background-color: black;
+  }
+}

@@ -1,0 +1,40 @@
+.skill-list {
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill i {
+  font-size: 20px;
+}
+
+.skill-name:hover {
+  animation: hover-color 0.1s ease-in;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes hover-color {
+  from {
+    color: black;
+    background-color: white;
+  }
+  to {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
+}
